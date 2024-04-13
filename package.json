@@ -1,23 +1,19 @@
 {
   "name": "hola-mundo-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Una aplicación simple que imprime 'Hola, mundo' en el navegador",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BenjaAM12/hola-mundo-app.git"
+    "test": "node test/app.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BenjaAM12/hola-mundo-app/issues"
+  "dependencies": {
+    "express": "^4.17.1"
   },
-  "homepage": "https://github.com/BenjaAM12/hola-mundo-app#readme",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^27.5.1",
+    "supertest": "^6.2.0"
   }
 }
